@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
+}
+
+main {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+
+.sect-1 {
+  background-color: white;
+  width: 82%;
+  height: 250px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.container {
+  margin-left: 10px;
+  padding: 30px;
+}
+
+.title {
+  color: hsl(179, 62%, 43%);
+}
+
+.info {
+  color: hsl(71, 73%, 54%);
+}
+
+.p1 {
+  color: hsl(218, 22%, 67%);
+  line-height: 2rem;
+  font-size: 1.2em;
+}
+
+.sect-2 {
+  display: flex;
+  width: 82%;
+  height: 270px;
+}
+
+.col-1 {
+  border-radius: 0px 0px 0px 10px;
+  color: hsl(204, 43%, 93%);
+  width: 190%;
+  background-color: hsl(179, 62%, 43%);
+}
+
+.col-2 {
+  width: 180%;
+  border-radius: 0px 0px 10px 0px;
+  color: hsl(204, 43%, 93%);
+  background-color: hsl(179, 61%, 60%);
+}
+
+.box-1,
+.box-2 {
+  padding: 30px;
+  margin-left: 10px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.money {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+span {
+  color: hsl(218, 22%, 75%);
+  font-weight: 400;
+}
+
+.access {
+  margin-top: 2%;
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.9;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 1px 3px 3px rgb(97, 88, 88);
+}
+
+.signup {
+  margin-top: 30px;
+}
+
+.signupbtn {
+  font-weight: 700;
+}
+
+.tuto,
+.us {
+  line-height: 0.3em;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  main {
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    padding: 300px 0px 85% 0px;
+  }
+
+  .sect-1 {
+    margin-left: -85px;
+    background-color: white;
+    width: 175%;
+    height: 285px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .sect-2 {
+    display: flex;
+    width: 82%;
+    height: 270px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col-1 {
+    border-radius: 0px 0px 0px 0px;
+    color: hsl(204, 43%, 93%);
+    width: 215%;
+
+    background-color: hsl(179, 62%, 43%);
+  }
+
+  .col-2 {
+    width: 215%;
+    border-radius: 0px 0px 0px 0px;
+    color: hsl(204, 43%, 93%);
+    background-color: hsl(179, 61%, 60%);
+  }
+
+  .container {
+    margin-left: 10px;
+    padding: 5px;
+  }
+
+  .p1 {
+    color: hsl(218, 22%, 67%);
+    line-height: 2rem;
+    font-size: 1em;
+  }
+
+  button {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 95%;
+    opacity: 0.9;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 3px 3px rgb(97, 88, 88);
+  }
+
+}
